@@ -1,0 +1,3 @@
+istitdown.py
+
+sends HEAD requests to urls in sitelist.csv and displays status code. 

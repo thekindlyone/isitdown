@@ -7,7 +7,7 @@ def getstatuscode(url):
     resp=s.head(url)
     return resp.status_code
 
-for url in open('sitelist.txt').read().split(','):
+for url in open('sitelist.csv').read().split(','):
     print url,'--->',getstatuscode(url)
     
 
